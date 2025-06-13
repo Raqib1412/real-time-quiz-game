@@ -10,12 +10,12 @@ A stunning real-time multiplayer quiz game with progressive rounds, automatic qu
 - 🔥 Fully Responsive Premium UI
 
 ## 🌐 Live Demo
-[Play Now](https://your-vercel-app-link.vercel.app)
+[Play Now](https://raqib1412.github.io/real-time-quiz-game/)
 
 ## 🛠️ Tech Stack
 - HTML, CSS, JavaScript
 - Vercel for Deployment
-- Firebase (Planned) for Real-Time Sync
+- Deployed on GitHub pages.
 
 ## 📂 Setup
 1. Clone the repo.
@@ -27,8 +27,8 @@ A stunning real-time multiplayer quiz game with progressive rounds, automatic qu
 🚀 Phase 2: Firebase Real-Time Multiplayer 🔄 (Upcoming)
 
 ## 👨‍💻 Author
-**Mohammed Raqib**  
-[GitHub Profile](https://github.com/your-github)
+Mohammed Raqib 
+
 
 ---
 
