@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1 class="game-title">🧩 Real-Time Quiz Game</h1>
+        <div id="gameInfo"></div>
+
+        <div class="quiz-card">
+            <div id="questionBox">Loading Question...</div>
+
+            <div class="options">
+                <button class="option-btn" id="option1">Option 1</button>
+                <button class="option-btn" id="option2">Option 2</button>
+                <button class="option-btn" id="option3">Option 3</button>
+                <button class="option-btn" id="option4">Option 4</button>
+            </div>
+
+            <div class="quiz-footer">
+                <div id="timerBar"></div>
+                <span id="timer">⏳ 15</span>
+                <span id="score">Score: 0</span>
+            </div>
+
+            <button id="nextBtn" class="next-btn">Next Question</button>
+        </div>
+
+        <div class="result-box" id="resultBox" style="display:none;">
+            <h2>🎉 Quiz Completed!</h2>
+            <p id="finalScore">Your Score: 0</p>
+            <button id="restartBtn" class="mode-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
